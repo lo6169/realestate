@@ -26,7 +26,6 @@ body
     position: absolute;
     z-index: 2;
     margin-bottom: 3%;
-
 }
 
 .menu a
@@ -60,7 +59,7 @@ body
     right: 0;
     top: 40%;
     text-align: center;
-    color: white;
+    color: #003052;
     font-size: 25px;
     font-family: Georgia;
 }
@@ -113,4 +112,12 @@ footer
 {
     margin: 5%;
     width: 90%;
+}
+
+.photo
+{
+    margin-left: 24%;
+    padding:1px;
+    border:1px solid #003052;
+    background-color:white;
 }
