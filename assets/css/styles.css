@@ -1,0 +1,116 @@
+body
+{
+    width: 90%;
+    font-family: Verdana, sans-serif;
+    margin-left: 5%;
+}
+
+.hamburger
+{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.hamburgermenu
+{
+    width: 35px;
+}
+
+.menu
+{
+    display: none;
+    width: 90%;
+    padding-bottom: 1%;
+    position: absolute;
+    z-index: 2;
+    margin-bottom: 3%;
+
+}
+
+.menu a
+{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.menu a:hover
+{
+    background-color: gray;
+}
+
+.box
+{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.box .name
+{
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Georgia;
+}
+
+.box .menuitems
+{
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 2%;
+    right: 0;
+    top: 96%;
+    text-align: left;
+}
+
+.blurb
+{
+    color: #003052;
+    font-size: 1.2em;
+    padding-top: 1%;
+    margin-top: 1%;
+    font-weight: normal;
+    width: 90%;
+    padding-left: 5%;
+}
+
+.head
+{
+    font-family: Georgia;
+    font-size: 1.5em;
+    width: 80%;
+    padding-left: 10%;
+    text-align: center;
+    margin-top: 2%;
+    color: #003052;
+}
+
+footer
+{
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #003052;
+    font-size: 0.8em;
+    color: white;
+    text-align: center;
+}
+
+.slideshow
+{
+    margin: 5%;
+    width: 90%;
+}

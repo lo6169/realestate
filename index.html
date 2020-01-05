@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tucker McDonough Realty</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/javascript/myscripts.js"></script>
+</head>
+<body>
+    <div class="head">
+        Selling and buying properties on the Finger Lakes Region.
+    </div>
+
+
+    <div class="menuitems">
+        <div class="hamburgermenu" onclick="menuFunction()">
+            <div class="hamburger" id="ham1"></div>
+            <div class="hamburger" id="ham2"></div>
+            <div class="hamburger" id="ham3"></div>
+        </div>
+    </div>
+
+    <div id="menu" class="menu">
+        <a href="index.html">Home Page</a>
+        <a href="buy.html">View Listings</a>
+        <a href="sell.html">List a Property</a>
+        <a href="about.html">Meet the Agent</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="box">
+        <img src="assets/media/newhampshire.jpg" alt="New Hampshire PLACEHOLDER IMAGE" style="width: 100%">
+        <div class="name">
+            Tucker McDonough <br/>
+            Making your dream home a reality.
+        </div>
+    </div>
+
+    <div class="blurb">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+
+    <div class="slideshow">
+        <img class="mySlides" src="assets/media/image1.jpg" style="width: 100%">
+        <img class="mySlides" src="assets/media/image2.jpg" style="width: 100%">
+        <img class="mySlides" src="assets/media/image3.jpg" style="width: 100%">
+        <img class="mySlides" src="assets/media/image4.jpg" style="width: 100%">
+    </div>
+
+<script>
+    var slideIndex = 0;
+    carousel();
+
+    function carousel()
+    {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>
+
+
+</body>
+
+<footer>
+    Tucker McDonough Realty - Roche Realty
+    <img src="assets/media/rochelogo.png" style="width: 50%; padding-top: 1%; padding-bottom: 1%;">
+    <br/>
+    Copyright - Lindsey Olson 2020 <br/>
+
+</footer>
+
+</html>
